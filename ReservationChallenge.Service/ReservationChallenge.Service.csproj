@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Akka" Version="1.5.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReservationChallenge.Data\ReservationChallenge.Data.csproj" />
+    <ProjectReference Include="..\ReservationChallenge.Messages\ReservationChallenge.Messages.csproj" />
+  </ItemGroup>
+
+</Project>
